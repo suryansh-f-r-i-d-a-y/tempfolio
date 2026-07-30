@@ -1,0 +1,23 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100..800&display=swap');
+
+/* Dark Aesthetic Background */
+body {
+    background: linear-gradient(to bottom, #0f172a, #020617, #000000);
+    background-attachment: fixed;
+    min-height: 100vh;
+    color: #e2e8f0;
+    scroll-behavior: smooth;
+    font-family: system-ui, -apple-system, sans-serif;
+}
+
+/* Apply JetBrains Mono to code/mono elements */
+code,
+pre,
+.font-mono {
+    font-family: 'JetBrains Mono', monospace;
+}
+
+#root {
+    min-height: 100vh;
+}
